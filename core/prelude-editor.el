@@ -1,6 +1,6 @@
 ;;; prelude-editor.el --- Emacs Prelude: enhanced core editing experience.
 ;;
-;; Copyright © 2011-2013 Bozhidar Batsov
+;; copyright © 2011-2013 Bozhidar Batsov
 ;;
 ;; Author: Bozhidar Batsov <bozhidar@batsov.com>
 ;; URL: http://batsov.com/emacs-prelude
@@ -43,10 +43,10 @@
   :type 'boolean
   :group 'prelude)
 
-;;(defcustom prelude-guru t
-;;  "Non-nil values enable guru-mode"
-;;  :type 'boolean
-;;  :group 'prelude)
+(defcustom prelude-guru t
+  "Non-nil values enable guru-mode"
+  :type 'boolean
+  :group 'prelude)
 
 (defcustom prelude-whitespace t
   "Non-nil values enable Prelude's whitespace visualization."

@@ -186,7 +186,7 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (define-key global-map  "\C-cse" 'cscope-find-egrep-pattern)
 (define-key global-map  "\C-csf" 'cscope-find-this-file)
 (define-key global-map  "\C-csi" 'cscope-find-files-including-file)
-;;          global-map  
+;;          global-map
 (define-key global-map  "\C-csL" 'cscope-create-list-of-files-to-index)
 (define-key global-map  "\C-csI" 'cscope-index-files)
 (define-key global-map  "\C-csE" 'cscope-edit-list-of-files-to-index)
@@ -194,5 +194,6 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
 (define-key global-map  "\C-csS" 'cscope-tell-user-about-directory)
 (define-key global-map  "\C-csT" 'cscope-tell-user-about-directory)
 (define-key global-map  "\C-csD" 'cscope-dired-directory)
+
 
 (desktop-save-mode 1)
