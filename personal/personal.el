@@ -18,7 +18,7 @@
 ;
 (fset 'yes-or-no-p 'y-or-n-p) ; 将yes/no替换为y/n
 ;; (global-linum-mode 1)
-(cua-mode 1)
+;; (cua-mode 1)
 (setq frame-title-format "%f") ; 显示当前编辑的文档
 
 (auto-image-file-mode)
